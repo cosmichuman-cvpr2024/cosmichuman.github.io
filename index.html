@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="CosmicHuman">
+  <meta name="description" content="CosmicMan">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CosmicHuman</title>
+  <title>CosmicMan</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
@@ -42,26 +42,26 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <br><br><br>
-            <h1 class="title is-1 publication-title">CosmicHuman: A Text-to-Image Foundation Model for Humans</h1>
+            <h1 class="title is-1 publication-title">CosmicMan: A Text-to-Image Foundation Model for Humans</h1>
             <h4 class="title is-4 publication-title" style="color:#5a6268;">CVPR2024</h4>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
-                <a href="mailto:lishikai@pjlab.org.cn" target="_blank">Shikai Li</a>, </span>  
+                <a href="mailto:lishikai@pjlab.org.cn" target="_blank">Shikai Li</a>*, </span>  
                 <!-- <sup>1</sup> -->
               <span class="author-block">
-                <a href="mailto:arlenefu@outlook.com" target="_blank">Jianglin Fu</a>, </span>
+                <a href="mailto:arlenefu@outlook.com" target="_blank">Jianglin Fu</a>*, </span>
               <span class="author-block">
-                <a href="mailto:" target="_blank">Kaiyuan Liu</a>, </span>
+                <a href="mailto:1154864382@mail.dlut.edu.cn" target="_blank">Kaiyuan Liu</a>, </span>
               <span class="author-block">
                 <a href="mailto:wangwentao@pjlab.org.cn" target="_blank">Wentao Wang</a>, </span>
               <span class="author-block">
-                <a href="https://kwanyeelin.github.io/" target="_blank">Kwan-Yee Lin</a>, </span>
+                <a href="https://kwanyeelin.github.io/" target="_blank">Kwan-Yee Lin</a><sup>&#8224</sup>, </span>
               <span class="author-block">
                 <a href="https://wywu.github.io/" target="_blank">Wayne Wu</a><sup>&#8224</sup> </span>
                 <!-- <sup>1&#8224</sup> -->
             </div>
             <div class="is-size-5 publication-authors">
-              <span class="author-block">Shanghai AI Laboratory,    </span>
+              <span class="author-block">Shanghai AI Laboratory    </span>
               <!-- <sup>1</sup> -->
             </div>
 
@@ -142,15 +142,15 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-            We present <strong>CosmicHuman</strong>, a text-to-image foundation model specialized for generating high-fidelity human images. 
+            We present <strong>CosmicMan</strong>, a text-to-image foundation model specialized for generating high-fidelity human images. 
             Unlike current general-purpose foundation models that are stuck in the dilemma of inferior quality and text-image misalignment for humans, 
-            CosmicHuman enables generating photo-realistic human images with meticulous appearance, reasonable structure, 
+            CosmicMan enables generating photo-realistic human images with meticulous appearance, reasonable structure, 
             and precise text-image alignment with detailed dense descriptions.
 
-            At the heart of CosmicHuman's success are the new reflections and perspectives on data and model:
+            At the heart of CosmicMan's success are the new reflections and perspectives on data and model:
               (1) We found that data quality and a scalable data production flow are essential for the final results from trained models. 
               Hence, we propose a new data production paradigm <strong>Annotate Anyone</strong>, which serves as a perpetual data flywheel to produce high-quality data with accurate yet 
-              cost-effective annotations over time. Based on this, we constructed a large-scale dataset <strong>CosmicHuman-HQ 1.0</strong>, 
+              cost-effective annotations over time. Based on this, we constructed a large-scale dataset <strong>CosmicMan-HQ 1.0</strong>, 
               with 6 Million high-quality real-world human images in a mean resolution of 1488x1255, 
               and attached with precise text annotations deriving from 115 Million attributes in diverse granularities.
               (2) We argue that a text-to-image foundation model specialized for humans must be pragmatic - easy to integrate into down-streaming tasks while effective 
@@ -203,12 +203,12 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Data - CosmicHuman-HQ 1.0</h2>
+        <h2 class="title is-3">Data - CosmicMan-HQ 1.0</h2>
         <div class="content has-text-justified">
           <img src="./static/imgs/dataset_stat_table.png" alt="Image 1">
           <p>
-            The dataset CosmicHuman-HQ 1.0, with 6 Million high-quality real-world human images, will be released soon.
-            The statistical comparison between publicly available human-related datasets and CosmicHuman-HQ 1.0.
+            The dataset CosmicMan-HQ 1.0, with 6 Million high-quality real-world human images, will be released soon.
+            The statistical comparison between publicly available human-related datasets and CosmicMan-HQ 1.0.
           </p>
         </div>
         
@@ -283,7 +283,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Potential Downstream Applications</h2>
         
-        <h2 class="title is-5">Gen-2 video produced by CosmicHuman and Art Designers</h2>
+        <h2 class="title is-5">Gen-2 video produced by CosmicMan and Art Designers</h2>
         <div class="content has-text-justified">
             
         
