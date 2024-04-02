@@ -163,16 +163,15 @@
 
             At the heart of CosmicMan's success are the new reflections and perspectives on data and model:
               (1) We found that data quality and a scalable data production flow are essential for the final results from trained models. 
-              Hence, we propose a new data production paradigm <strong>Annotate Anyone</strong>, which serves as a perpetual data flywheel to produce high-quality data with accurate yet 
+              Hence, we propose a new data production paradigm, <strong>Annotate Anyone</strong>, which serves as a perpetual data flywheel to produce high-quality data with accurate yet 
               cost-effective annotations over time. Based on this, we constructed a large-scale dataset <strong>CosmicMan-HQ 1.0</strong>, 
               with 6 Million high-quality real-world human images in a mean resolution of 1488x1255, 
               and attached with precise text annotations deriving from 115 Million attributes in diverse granularities.
               (2) We argue that a text-to-image foundation model specialized for humans must be pragmatic - easy to integrate into down-streaming tasks while effective 
               in producing high-quality human images. Hence, we propose to model the relationship between dense text descriptions and image pixels in 
-              a decomposed manner, and present <strong>D</strong>ecomposed-<strong>A</strong>ttention-<strong>R</strong>efocus<strong>ing</strong> (<strong>Daring</strong>). 
-              Daring is a training framework that seamlessly decomposes the cross-attention features in the existing text-to-image diffusion model, 
-              and enforces attention refocusing without adding extra modules. Through Daring, we show that explicitly discretizing continuous text space into several 
-              basic groups that align with human body structure is the key to tackling the misalignment problem in a breeze.
+              a decomposed manner, and present <strong>D</strong>ecomposed-<strong>A</strong>ttention-<strong>R</strong>efocus<strong>ing</strong> (<strong>Daring</strong>) training framework.
+              It seamlessly decomposes the cross-attention features in existing text-to-image diffusion model, and enforces attention refocusing without adding extra modules. 
+              Through Daring, we show that explicitly discretizing continuous text space into several basic groups that align with human body structure is the key to tackling the misalignment problem in a breeze.
             </p>
           </div>
         </div>
